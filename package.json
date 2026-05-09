@@ -1,0 +1,25 @@
+{
+  "name": "qedsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build-index.mjs",
+    "start": "npx serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChouHenshin/qedsearch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChouHenshin/qedsearch/issues"
+  },
+  "homepage": "https://github.com/ChouHenshin/qedsearch#readme",
+  "dependencies": {
+    "minisearch": "^7.2.0"
+  }
+}
